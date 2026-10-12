@@ -1,0 +1,65 @@
+name: "🐛 Relato de bug"
+description: Algo no software não está funcionando como esperado
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Não cole dados reais de clientes (CPF, nome, endereço), tokens nem senhas.**
+        Use dados fictícios ou mascare as informações.
+  - type: dropdown
+    id: modulo
+    attributes:
+      label: Módulo afetado
+      options:
+        - Produtos
+        - Pedidos
+        - Financeiro
+        - Marketing (coleta de métricas)
+        - Jurídico
+        - Banco de dados
+        - Infra / Configuração
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que aconteceu
+      description: Descreva o problema com clareza.
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que era esperado
+    validations:
+      required: true
+  - type: textarea
+    id: reproduzir
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1. Abrir o módulo ...
+        2. Clicar em ...
+        3. Ver o erro ...
+    validations:
+      required: true
+  - type: dropdown
+    id: severidade
+    attributes:
+      label: Gravidade
+      options:
+        - Baixa (incômodo)
+        - Média (atrapalha o uso)
+        - Alta (bloqueia a operação)
+        - Crítica (perda ou exposição de dados)
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs ou mensagem de erro
+      description: Remova qualquer dado sensível antes de colar.
+      render: shell
