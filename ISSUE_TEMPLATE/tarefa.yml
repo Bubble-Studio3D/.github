@@ -1,0 +1,51 @@
+name: "✅ Tarefa / Funcionalidade"
+description: Nova funcionalidade, melhoria ou tarefa técnica
+title: "[Tarefa] "
+labels: ["tarefa"]
+body:
+  - type: dropdown
+    id: modulo
+    attributes:
+      label: Módulo
+      options:
+        - Produtos
+        - Pedidos
+        - Financeiro
+        - Marketing (coleta de métricas)
+        - Jurídico
+        - Banco de dados
+        - Infra / CI
+        - Documentação
+    validations:
+      required: true
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: O que precisa existir e por que isso importa para o negócio?
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de pronto
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: dropdown
+    id: prioridade
+    attributes:
+      label: Prioridade
+      options:
+        - Baixa
+        - Média
+        - Alta
+    validations:
+      required: true
+  - type: textarea
+    id: notas
+    attributes:
+      label: Notas e dependências
+      description: Links, decisões já tomadas, outras tarefas relacionadas.
