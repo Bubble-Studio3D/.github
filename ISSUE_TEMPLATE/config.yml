@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Reportar vulnerabilidade de segurança
+    url: https://github.com/Bubble-Studio3D/.github/blob/main/SECURITY.md
+    about: Não abra issue pública. Siga as instruções de contato privado.
