@@ -26,18 +26,6 @@ embalagem pensada para que a experiência do cliente seja especial do início ao
 | 🎮 **Cultura Pop · Geek · Nerd · Anime** | Peças autorais, colecionáveis e itens de fandom |
 | ✝️ **Religioso** | Imagens, terços, crucifixos e lembrancinhas de sacramento |
 
-## 💻 Tecnologia
-
-Além das peças, construímos o nosso próprio software de gestão: catálogo, pedidos,
-financeiro e acompanhamento de desempenho nos canais de venda.
-
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-
-Impressão com **Bambu Lab A1 Combo (AMS Lite)**, para peças multicoloridas.
-
 ## 📦 Onde comprar
 
 Nossos produtos são vendidos na **Shopee**, no **Mercado Livre** e no **TikTok Shop**,
