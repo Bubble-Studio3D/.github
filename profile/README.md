@@ -23,7 +23,7 @@ embalagem pensada para que a experiência do cliente seja especial do início ao
 | Linha | Exemplos |
 |---|---|
 | 🏠 **Casa** | Vasos, organizadores, utencílios/utilitários domésticos |
-| 🏠 **Decoração** | objetos decorativos e itens sazonais (Natal, Ano Novo) |
+| 🪴 **Decoração** | objetos decorativos e itens sazonais (Natal, Ano Novo) |
 | 🎮 **Cultura Pop · Geek · Nerd · Anime** | Peças autorais, colecionáveis e itens de fandom |
 | ✝️ **Religioso** | Imagens, terços, crucifixos e lembrancinhas de sacramento |
 
